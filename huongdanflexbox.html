@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .menu {
+            background-color: bisque;
+            width: 200px;
+        }
+        .h_menu {
+            line-height: 50px;
+            list-style-type: none;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+        .h_menu li {
+            border-bottom: 1px solid;
+        }
+        .h_menu li a {
+            font-size: 20px;
+            text-decoration: none;
+            position: relative;
+            /* right: 1px; */
+            left: 5px;
+        }
+        li:hover {
+            background-color: rgb(208, 190, 190);
+        }
+
+        .list {
+            display: flex;
+            /* justify-content: space-around; */
+        }
+
+        .list_item {
+            width: 500px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            background-color: grey;
+            color: white;
+            margin-left: 5px;
+        }
+
+        .list_item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .list_title {
+            margin: 10px 0 0 0;
+        }
+
+        .list_desc {
+            margin: 5px 0 0 0;
+        }
+        .logo {
+            background-color: aliceblue;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            color: black;
+            box-sizing: border-box;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            
+        }
+        .content {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <div class="menu">
+            <ul class="h_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="list_item">
+            <img src="https://plus.nasa.gov/wp-content/uploads/2024/02/ListenToTheUniverse_thumbnail.jpg?w=1024" alt="universe" class="list_img">
+            <h3 class="list_title">This is title</h3>
+            <p class="list_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestiae delectus fugiat, 
+                unde minima iure blanditiis quo cumque error, consequuntur voluptatem sed quas tempore, aperiam atque earum vel nemo eum?</p>
+            <div class="logo"> 
+                <img src="https://insieutoc.vn/wp-content/uploads/2021/03/mau-logo-dep.jpg" alt="logo">
+                <p class="content">this is logo and comment</p>
+            </div>
+        </div>
+        <div class="list_item">
+            <img src="https://plus.nasa.gov/wp-content/uploads/2024/02/ListenToTheUniverse_thumbnail.jpg?w=1024" alt="universe" class="list_img">
+            <h3 class="list_title">This is title</h3>
+            <p class="list_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestiae delectus fugiat, 
+                unde minima iure blanditiis quo cumque error, consequuntur voluptatem sed quas tempore, aperiam atque earum vel nemo eum?</p>
+            <div class="logo"> 
+                <img src="https://insieutoc.vn/wp-content/uploads/2021/03/mau-logo-dep.jpg" alt="logo">
+                <p class="content">this is logo and comment</p>
+            </div>
+        </div>
+        <div class="list_item">
+            <img src="https://plus.nasa.gov/wp-content/uploads/2024/02/ListenToTheUniverse_thumbnail.jpg?w=1024" alt="universe" class="list_img">
+            <h3 class="list_title">This is title</h3>
+            <p class="list_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestiae delectus fugiat, 
+                unde minima iure blanditiis quo cumque error, consequuntur voluptatem sed quas tempore, aperiam atque earum vel nemo eum?</p>
+            <div class="logo"> 
+                <img src="https://insieutoc.vn/wp-content/uploads/2021/03/mau-logo-dep.jpg" alt="logo">
+                <p class="content">this is logo and comment</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
