@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baitapbuoi8.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clothes</h1>
+        <form id="frm">
+            <label>
+                Product name
+                <input type="text" id="pname">
+            </label>
+            <label>
+               Product Quantity
+                <input type="text" id="qty">
+            </label>
+            <label>
+                Product Price
+                <input type="text" id="price">
+            </label>
+            <div id="button-add">
+                <button type="button" onclick="add()">Add</button>
+            </div>
+        </form>
+    </div>
+
+    <table id="tbl">
+        <thead>
+                <th>No</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Subtotal</th>
+        </thead>
+        <tbody id="product">
+
+        </tbody>
+        <tr id="ttal" >
+            <td colspan="4"><b>Total</b></td>
+            <td id ="total">0</td>
+        </tr>
+    </table>
+    <script src="baitapbuoi8.js"></script>
+</body>
+</html>
